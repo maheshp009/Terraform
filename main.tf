@@ -1,8 +1,8 @@
 provider "databricks" {
-  host              = "https://adb-2494790443069613.13.azuredatabricks.net/?o=2494790443069613#"
-  azure_client_id   = "97d1480b-0ccd-4cf1-93e2-40ea5b0f8869"
-  azure_tenant_id   = "8ac76c91-e7f1-41ff-a89c-3553b2da2c17"
-  azure_client_secret = "m.28Q~6eEw-1OhzQrTAjasTtWDBsBIQ-eRr3Cceq"
+  host              = "
+  azure_client_id   = "
+  azure_tenant_id   = ""
+  azure_client_secret = "
 }
 
 terraform {
@@ -15,7 +15,7 @@ terraform {
 }
 
 # resource "databricks_catalog" "catalog" {
-#   metastore_id = "d8365bce-aee0-4a53-9f94-df7f3582ebf0"
+#   metastore_id = ""
 #   name         = "autoloader_sample_catalog"
 # }
 
@@ -23,7 +23,7 @@ terraform {
 #   name =  "autoloader"
 #   owner = "DEV-EDL"
 #   azure_managed_identity {
-#     access_connector_id = "/subscriptions/7820fba7-bfe0-4c5c-89a3-e37f6aef4703/resourceGroups/ZUSE2-TAA-RGP-DEV-EDL/providers/Microsoft.Databricks/accessConnectors/zuse2devedlacdb01"
+#     access_connector_id = ""
 #   }
 # }
 
